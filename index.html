@@ -5,14 +5,259 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Custom-Css -->
+    <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap-Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/368ff28df9.js" crossorigin="anonymous"></script>
+    <title>Honda CBR </title>
 </head>
 
 <body>
+    <!-- header-section -->
+    <header class="container-fluid header-bg">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container-fluid">
 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <button class="cbr-button">
+                            Login
+                        </button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="container pt-5 pb-5">
+            <div class="row d-flex align-items-center">
+                <div class="banner-text me-auto col-12 col-lg-6 col-md-5">
+                    <small class="special-font">Computer-controlled digital transistorized with electronic
+                        advance</small>
+                    <h1>Honda CBR 300R</h1>
+                    <p><small class="special-font">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</small>
+                    </p>
+                    <div style="color: black;">
+                        <!-- Button trigger modal -->
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            class="purchase-button mt-3">
+                            Purchase
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Greetings!</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Would you like to see some more varities?
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="cbr-button" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="cbr-button">Let's Go</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 col-md-7 d-flex align-items-center justify-content-center">
+                    <img width="450" src="images/header-bike.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="mt-5 container">
+            <div class="text-center">
+                <h1>Fetured Bikes 2021</h1>
+                <h6 class="text-danger">Best bike collection</h6>
+
+            </div>
+            <div class="row pt-5 pb-3 d-flex align-items-center gy-5">
+                <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                    <img class="gray-image" width="288px" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                    <img width="288px" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                    <img class="gray-image" width="288px" src="images/feature-bike.jpg" alt="">
+                </div>
+            </div>
+
+
+        </section>
+        <!-- Latest-News-Section -->
+        <section class="container mt-5">
+            <div class="text-center">
+                <h1>Latest News</h1>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                <div class="col rounded-3">
+                    <div class="card h-100">
+                        <img src="images/bike-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="purchase-button">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bike-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Motorcycles & Scooters</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="purchase-button">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/bike-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">2021 Honda CBR500R</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="purchase-button">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="text-center mt-5 mb-5">
+                <h1>Happy <span style="color:  #E76F51;">Clients says</span></h1>
+            </div>
+            <div class="row d-flex g-4 justify-content-center">
+                <div class="card col-12 col-lg-4 " style="width: 18rem;">
+                    <div class="card-img-top d-flex align-items-center justify-content-center mt-3 mb-3">
+                        <img style="width: 149px;" src="images/user-1.png" alt="...">
+                    </div>
+
+                    <div class="card-body text-center">
+                        <p class="card-text">Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center border-0">
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </li>
+                        <li class="list-group-item border-0">Regina Miles</li>
+                        <li class="list-group-item border-0">Banker</li>
+                    </ul>
+
+                </div>
+                <div class="card ms-5 me-5 col-12 col-lg-4 " style="width: 18rem;">
+                    <div class="card-img-top d-flex align-items-center justify-content-center mt-3 mb-3">
+                        <img style="width: 149px;" src="images/user-2.png" alt="...">
+                    </div>
+
+                    <div class="card-body text-center">
+                        <p class="card-text">Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                    </div>
+
+                    <ul class="list-group list-group-flush text-center border-0 ">
+                        <li class="list-group-item border-0 ">
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star "></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </li>
+                        <li class="list-group-item border-0 ">Regina Miles</li>
+                        <li class="list-group-item border-0">Banker</li>
+                    </ul>
+
+
+
+
+                </div>
+                <div class="card col-12 col-lg-4 " style="width: 18rem;">
+                    <div class="card-img-top d-flex align-items-center justify-content-center mt-3 mb-3">
+                        <img class="rounded-circle" style="width: 149px;" src="images/user-3.jpg" alt="...">
+                    </div>
+
+                    <div class="card-body text-cente ">
+                        <p class="card-text">Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center border-0">
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </li>
+                        <li class="list-group-item border-0">Regina Miles</li>
+                        <li class="list-group-item border-0">Banker</li>
+                    </ul>
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+        </section>
+    </main>
 
 
 
