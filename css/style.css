@@ -46,3 +46,8 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
+.footer-decoration{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
